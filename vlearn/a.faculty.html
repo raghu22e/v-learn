@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<style>
+    body{
+    background-color: #101728;
+}
+p{
+    text-align: center;
+}
+.button {
+  border: none;
+  color: rgb(17, 111, 58);
+  padding: 15px 32px;
+  text-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+	<h1 style="text-align: center;color: #ED32B9;">create assignment</h1>
+	<form name="RegForm" onsubmit="return GEEKFORGEEKS()" method="post">
+		<p style="color: rgb(225, 46, 165);">Name: <input type="text" size="65" name ="assignmet nameName" /><br>
+        </p>
+        <br>
+		<br />
+		<p style="color: aliceblue;">instruction: <input type="text" size="65" name="Address" />
+		</p>
+		<br />
+      <form action="/action_page.php" 
+        enctype="multipart/form-data">
+          
+        <label for="myfile" style="color: aliceblue;">Select a file:</label>
+        <input type="file" id="myfile" name="myfile" />
+        <br /><br />
+        <input type="submit" />
+    </form>
+		<br />
+		<p style="color: aliceblue;">due date: <input type="text" size="65" name="due date" /></p>
+		<br />
+		<p style="color: aliceblue;">
+			SELECT type of file to be uploded by student
+			<select type="text" value="" name="Subject">
+				<option>word</option>
+				<option>pdf</option>
+				<option>ppt</option>
+				<option>all</option>
+			</select>
+		</p>
+		<br />
+		<br />
+		<p>Comments: <textarea cols="55" name="Comment"> </textarea></p>
+       
+		<button class="button button1";><a href="div-id">created</a></button>
+        <button class="button button2";>close</button>
+    </form>
+
+</html>
