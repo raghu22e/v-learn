@@ -1,0 +1,32 @@
+<style>
+    body{
+    background-color: #101728;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 2px;
+  cursor: pointer;
+}
+h1{
+    font-size: 100px;
+    
+}
+h2{
+  font-size: 80px;
+}
+
+p {
+    font-size: 40px;
+
+  }
+  
+
+.button1 {background-color: #ec3737;} /* Login */
+.button2 {background-color: #ec3737;} /* Sign up*/
+</style>
